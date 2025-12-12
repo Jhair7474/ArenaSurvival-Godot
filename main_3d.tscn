@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmh2xys8unpyw"]
+
+[ext_resource type="PackedScene" uid="uid://d4aygbnxpv38f" path="res://Entities/player.tscn" id="1_wiwsh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_aas03"]
+size = Vector2(200, 200)
+
+[node name="Main_3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.069390655, 0)
+mesh = SubResource("PlaneMesh_aas03")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16943121, 6.554245, -0.124227405)
+
+[node name="Player" parent="." instance=ExtResource("1_wiwsh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.62558365, 0)
