@@ -12,7 +12,7 @@ var xp_value: int = 1
 
 # --- ANIMACIONES: ¡VERIFICA ESTAS LÍNEAS! ---
 # Reemplaza con la ruta exacta del AnimationPlayer de tu enemigo.
-@onready var anim_player: AnimationPlayer = $Skeleton/AnimationPlayer # Usando Skeleton como ejemplo
+@onready var anim_player: AnimationPlayer = $Demon2/AnimationPlayer # Usando Skeleton como ejemplo
 const ANIM_IDLE = "Idle" 
 const ANIM_RUN = "Run"   
 # ---------------------------------------------

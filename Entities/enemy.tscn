@@ -12,4 +12,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08817291, 2.1199532, -0.183
 shape = SubResource("BoxShape3D_7qchm")
 
 [node name="Demon2" parent="." instance=ExtResource("1_7qchm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08229327, 0.73675275, -0.34150982)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0.08229327, 0.73675275, -0.34150982)

@@ -7,7 +7,7 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 # --- ANIMACIONES: ¡VERIFICA ESTAS LÍNEAS! ---
 # Ruta para el AnimationPlayer. ESTA RUTA DEBE SER EXACTA
-@onready var anim_player: AnimationPlayer = $Character_Male_1/AnimationPlayer 
+@onready var anim_player: AnimationPlayer = $Character_Male_1/AnimationPlayer
 const ANIM_IDLE = "Idle" 
 const ANIM_RUN = "Run"   
 # ---------------------------------------------
