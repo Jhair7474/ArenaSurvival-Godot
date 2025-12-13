@@ -1,16 +1,14 @@
 extends Node3D
 
-# Esta función se llama cuando la escena Main_3D está cargada y lista.
 func _ready():
-	# 1. Obtener la referencia al nodo Jugador 
+	# 1. Obtenemos referencias a los nodos instanciados
 	var player_node = $Player 
-
-	# 2. Obtener la referencia al nodo Enemigo
 	var enemy_node = $Enemy 
 
-	# 3. Pasar la referencia del jugador al script del enemigo
+	# 2. Conectamos la referencia del jugador al script del enemigo
 	if enemy_node and player_node:
 		enemy_node.player = player_node
-		print("Conexión Player-Enemy establecida.")
+		print("Conexión Player-Enemy establecida. El enemigo debe perseguir al jugador.")
 	else:
-		print("ERROR: No se encontró el nodo Player o Enemy.")
+		# Esto te ayudará a saber si olvidaste instanciar algo
+		print("ERROR: Verifique que Player y Enemy estén instanciados en Main_3D.")

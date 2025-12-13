@@ -1,21 +1,21 @@
 [gd_scene load_steps=4 format=3 uid="uid://d4aygbnxpv38f"]
 
 [ext_resource type="Script" uid="uid://cgjnleu6wurmt" path="res://Scripts/player.gd" id="1_tcnsb"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_ypkcv"]
+[ext_resource type="PackedScene" uid="uid://do5fppfun3xf8" path="res://Characters/FBX/Character_Male_1.fbx" id="2_gb1tc"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_tcnsb"]
+size = Vector3(2.489624, 2.8427734, 1.0825195)
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_tcnsb")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("BoxMesh_ypkcv")
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0033171177, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23080432, 1.4181299, 0.013395011)
 shape = SubResource("BoxShape3D_tcnsb")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.62387955, 0.7815205, 0, -0.7815205, 0.62387955, -0.031877995, 0.88917077, 0.55397403)
+transform = Transform3D(-0.99254614, -0.058711063, 0.10679501, 0, 0.87630665, 0.48175377, -0.12186945, 0.4781628, -0.8697748, 0.22421312, 3.6167421, -1.8676528)
 current = true
+fov = 97.74105
+
+[node name="Character_Male_1" parent="." instance=ExtResource("2_gb1tc")]
