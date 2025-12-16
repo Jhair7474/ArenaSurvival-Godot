@@ -1,47 +1,45 @@
 extends Area3D
 
-@export var speed: float = 15.0 
+@export var speed: float = 20.0
 var direction: Vector3 = Vector3.FORWARD
-var damage: int = 10 
+var damage: int = 10
+var shooter_ref: Node3D = null # Variable para guardar quién disparó
 
 func _ready() -> void:
-	# Conectamos la señal de colisión body_entered
-	# Esto es una alternativa a conectar manualmente en el editor
-	body_entered.connect(_on_body_entered)
-	# Autodestrucción tras 3 segundos si no golpea nada
-	set_life_time(3.0) 
-
-func set_life_time(seconds: float):
-	var timer = Timer.new()
-	timer.one_shot = true
-	add_child(timer)
-	timer.start(seconds)
-	await timer.timeout
+	# Conectamos la señal. Asegúrate de que NO esté conectada manualmente en el editor
+	# para evitar que se conecte dos veces.
+	if not body_entered.is_connected(_on_body_entered):
+		body_entered.connect(_on_body_entered)
+	
+	# Temporizador de seguridad: si no golpea nada en 3 seg, se destruye
+	await get_tree().create_timer(3.0).timeout
 	if is_instance_valid(self):
 		queue_free()
 
-# Esta función es llamada desde player.gd para configurar la dirección y el daño
-func setup(dir: Vector3, dmg: int):
-	direction = dir.normalized()
-	damage = dmg
-	# Para que el proyectil mire hacia donde se mueve
-	look_at(global_position + direction) 
-
 func _process(delta: float) -> void:
-	# Mueve el proyectil
+	# Mover el proyectil en la dirección asignada
 	global_position += direction * speed * delta
 
-# Función de colisión (activada por la señal body_entered)
-func _on_body_entered(body: Node3D) -> void:
-	# Verificamos si el cuerpo que golpea tiene la función take_damage (solo los enemigos la tienen)
-	if body.has_method("take_damage"):
-		# Aplicamos el daño (llama a la función en enemy.gd)
-		body.take_damage(damage)
-		
-		# Destruimos el proyectil después de impactar
-		queue_free() 
+# Función llamada desde el player para iniciar la bala
+func setup(dir: Vector3, dmg: int, who_shot: Node3D):
+	direction = dir.normalized()
+	damage = dmg
+	shooter_ref = who_shot # Guardamos la referencia del jugador
 	
-	# Si golpea algo que no es enemigo, también se destruye.
-	# Esta línea asegura que no se destruya al chocar con el jugador (self)
-	elif body != get_parent(): 
+	# Hacemos que la bala mire visualmente hacia donde va
+	if direction.length() > 0:
+		look_at(global_position + direction, Vector3.UP)
+
+func _on_body_entered(body: Node3D) -> void:
+	# 1. IMPORTANTE: Si el cuerpo que tocamos es el tirador (el jugador), ignoramos el choque.
+	if body == shooter_ref:
+		return
+
+	# 2. Si es un enemigo (tiene la función take_damage), le hacemos daño
+	if body.has_method("take_damage"):
+		body.take_damage(damage)
+		queue_free() # Destruimos la bala
+	
+	# 3. Si es una pared o suelo (y no es el jugador), destruimos la bala
+	else:
 		queue_free()

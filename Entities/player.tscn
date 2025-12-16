@@ -8,6 +8,8 @@ size = Vector3(2.3513718, 2.6501465, 1.8557129)
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_tcnsb")
+projectile_offset = Vector3(0, 1, 1)
+shoot_forward_vector = Vector3(0, 0, 1)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.009931564, 1.3218164, -0.24210912)
