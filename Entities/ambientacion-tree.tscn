@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1ch2fmjf0nij"]
+
+[ext_resource type="PackedScene" uid="uid://divd6h2ml2gal" path="res://Heredaciones/tree_22.tscn" id="1_sl5pw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sl5pw"]
+size = Vector3(1, 4.0375366, 1)
+
+[node name="Ambientacion-tree" type="StaticBody3D"]
+
+[node name="Tree_22" parent="." instance=ExtResource("1_sl5pw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05722618, 0, 0.07499313)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6891174, 0.08561218)
+shape = SubResource("BoxShape3D_sl5pw")

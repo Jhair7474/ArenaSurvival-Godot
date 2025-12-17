@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://oqm01fgu6v47"]
+
+[ext_resource type="PackedScene" uid="uid://d3fityg0phjn4" path="res://Entities/crystal_big_2.tscn" id="1_4bt32"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i5q8o"]
+size = Vector3(10.501381, 6.2852173, 7.9753532)
+
+[node name="Cristales" type="StaticBody3D"]
+
+[node name="Crystal_Big2" parent="." instance=ExtResource("1_4bt32")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -0.3322854, 0, -0.4828334)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.96237564, 2.6426086, 1.0295849)
+shape = SubResource("BoxShape3D_i5q8o")

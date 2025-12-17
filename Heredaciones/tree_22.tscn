@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://divd6h2ml2gal"]
+
+[ext_resource type="PackedScene" uid="uid://c7fttp3ryfg4h" path="res://Environment/glTF/Tree_2.gltf" id="1_crq7f"]
+[ext_resource type="Texture2D" uid="uid://d045lo1w1vkmk" path="res://Enemies/FBX/Atlas.png" id="2_awrdu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_awrdu"]
+size = Vector3(1.0454102, 5.4952393, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5h7td"]
+albedo_texture = ExtResource("2_awrdu")
+
+[node name="Tree_22" instance=ExtResource("1_crq7f")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.022705078, 2.2476196, 0)
+shape = SubResource("BoxShape3D_awrdu")
+
+[node name="Tree_2" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_5h7td")

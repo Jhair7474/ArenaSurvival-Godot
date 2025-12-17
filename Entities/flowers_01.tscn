@@ -1,0 +1,20 @@
+[gd_scene load_steps=6 format=3 uid="uid://bx3oswcue3pcu"]
+
+[ext_resource type="PackedScene" uid="uid://bjctewnoce4rs" path="res://Environment/glTF/Flowers_1.gltf" id="1_gjri8"]
+[ext_resource type="Texture2D" uid="uid://d045lo1w1vkmk" path="res://Enemies/FBX/Atlas.png" id="2_or2tb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h376p"]
+albedo_texture = ExtResource("2_or2tb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r16ct"]
+albedo_texture = ExtResource("2_or2tb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_miku1"]
+albedo_texture = ExtResource("2_or2tb")
+
+[node name="Flowers_12" instance=ExtResource("1_gjri8")]
+
+[node name="Flowers_1" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_h376p")
+surface_material_override/1 = SubResource("StandardMaterial3D_r16ct")
+surface_material_override/2 = SubResource("StandardMaterial3D_miku1")

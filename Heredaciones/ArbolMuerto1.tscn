@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4qe325tq7dw7"]
+
+[ext_resource type="PackedScene" uid="uid://bpkwpmekalwfe" path="res://Entities/dead_tree_1.tscn" id="1_x8rs3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ajl7l"]
+size = Vector3(1, 5.368164, 1)
+
+[node name="ArbolMuerto1" type="StaticBody3D"]
+
+[node name="DeadTree_12" parent="." instance=ExtResource("1_x8rs3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21140003, 0, -0.10745907)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17487931, 2.184082, 0)
+shape = SubResource("BoxShape3D_ajl7l")
