@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://x2g0pdbk0ytk"]
+
+[ext_resource type="AudioStream" uid="uid://b6t23ixx05vik" path="res://Sounds/about_to_log_on.ogg" id="1_nmwqs"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer3D"]
+stream = ExtResource("1_nmwqs")
+volume_db = -10.0
+max_db = 1.95
+autoplay = true
+max_distance = 2000.0

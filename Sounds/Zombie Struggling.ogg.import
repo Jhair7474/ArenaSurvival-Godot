@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bryyeqqb4i12f"
+path="res://.godot/imported/Zombie Struggling.ogg-ac1de1e22198313416f21210a454f7fb.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sounds/Zombie Struggling.ogg"
+dest_files=["res://.godot/imported/Zombie Struggling.ogg-ac1de1e22198313416f21210a454f7fb.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
