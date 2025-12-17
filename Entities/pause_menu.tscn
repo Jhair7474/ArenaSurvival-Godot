@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://b827vr1wemkv0"]
+
+[ext_resource type="Script" uid="uid://ckc3k6cxfujge" path="res://Scripts/pause_menu.gd" id="1_76iry"]
+[ext_resource type="Texture2D" uid="uid://bso8crfjw5bn0" path="res://assets/Gemini_Generated_Image_dbp12jdbp12jdbp1.png" id="2_jfqsv"]
+[ext_resource type="FontFile" uid="uid://s5u46ldwkka8" path="res://fonts/Pixel-Regular.ttf" id="3_omgwt"]
+[ext_resource type="FontFile" uid="uid://ban2ue7efgjp7" path="res://fonts/Metal Glass.otf" id="4_jfqsv"]
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_76iry")
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 1472.0
+offset_bottom = 704.0
+texture = ExtResource("2_jfqsv")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+offset_left = 7.0
+offset_top = 8.0
+offset_right = 1153.0
+offset_bottom = 649.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="LabelPause" type="Label" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.628747, 0.3017025, 0.14522785, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_omgwt")
+theme_override_font_sizes/font_size = 99
+text = "PAUSE"
+
+[node name="ButtonResume" type="Button" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_jfqsv")
+text = "REAUNDAR"
+
+[node name="ButtonExit" type="Button" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_jfqsv")
+text = "Salir al Menú"
