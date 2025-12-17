@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://0adjpwr16rug"]
+
+[ext_resource type="PackedScene" uid="uid://cds7j3mmgta41" path="res://CarretaMuertos/scene.gltf" id="1_i1x1i"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_i1x1i")]

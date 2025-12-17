@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://v4ssqjwjol2"]
+
+[ext_resource type="PackedScene" uid="uid://b2dho5egrt8x4" path="res://Mediaval/House2/scene.gltf" id="1_w84py"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_w84py")]

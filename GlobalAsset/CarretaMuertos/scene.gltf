@@ -1,0 +1,510 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5478,
+      "max": [
+        -1.019402027130127,
+        5.0612640380859375,
+        5.864114284515381
+      ],
+      "min": [
+        -7.543274879455566,
+        -1.0696289539337158,
+        -10.323334693908691
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 65736,
+      "componentType": 5126,
+      "count": 5478,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5478,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999992847442627,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5478,
+      "max": [
+        0.998046875,
+        0.9726288914680481
+      ],
+      "min": [
+        0.001953125,
+        0.001953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 19182,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 131472,
+      "componentType": 5126,
+      "count": 7493,
+      "max": [
+        126.60122680664063,
+        209.39962768554688,
+        11.68272590637207
+      ],
+      "min": [
+        -182.8569793701172,
+        -143.073486328125,
+        -146.82302856445313
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 221388,
+      "componentType": 5126,
+      "count": 7493,
+      "max": [
+        0.9981961846351624,
+        0.9995322823524475,
+        0.9999712109565735
+      ],
+      "min": [
+        -0.9970471262931824,
+        -0.9998750686645508,
+        -0.9999966621398926
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 87648,
+      "componentType": 5126,
+      "count": 7493,
+      "max": [
+        0.9999781250953674,
+        0.999552309513092,
+        0.9995728135108948,
+        1.0
+      ],
+      "min": [
+        -0.999717116355896,
+        -0.9989074468612671,
+        -0.9999785423278809,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 43824,
+      "componentType": 5126,
+      "count": 7493,
+      "max": [
+        0.998046875,
+        0.9954555034637451
+      ],
+      "min": [
+        0.001953125,
+        0.001953125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 103768,
+      "componentType": 5126,
+      "count": 7493,
+      "max": [
+        73.37802124023438,
+        94.63859558105469
+      ],
+      "min": [
+        -71.33866882324219,
+        -93.94115447998047
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 76728,
+      "componentType": 5125,
+      "count": 31290,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "KIFIR (https://sketchfab.com/kifir)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cart-corpse-the-darkest-red-ac2389d2b9224b9d9310a6dfc978a7cc",
+      "title": "Cart corpse (The Darkest Red)"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 201888,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 163712,
+      "byteOffset": 201888,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 311304,
+      "byteOffset": 365600,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 207536,
+      "byteOffset": 676904,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 884440,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/telega_baseColor.png"
+    },
+    {
+      "uri": "textures/telega_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/telega_normal.png"
+    },
+    {
+      "uri": "textures/telega_other_items_baseColor.png"
+    },
+    {
+      "uri": "textures/telega_other_items_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/telega_other_items_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "telega",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "telega_other_items",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Korpus_telega_telega_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "corpse_telega_other_items_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "d3ba737e3eed4870b2e3b452824b23ca.fbx"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        2.7943344116210938,
+        0.0,
+        -45.38869094848633,
+        1.0
+      ],
+      "name": "Korpus_telega"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        29.599184036254883,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        0.3909370475823054,
+        26.015955183890476,
+        0.0,
+        0.0,
+        -26.015955183890476,
+        0.3909370475823054,
+        0.0,
+        126.72412872314453,
+        -58.78567886352539,
+        28.85223388671875,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "Korpus_telega_telega_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.9999999999999847,
+        3.970466940254533e-23,
+        -1.7484555314694902e-07,
+        0.0,
+        -1.7484555314694902e-07,
+        3.3306690738754696e-16,
+        -0.9999999999999847,
+        0.0,
+        3.970466940254533e-23,
+        1.0,
+        3.3306690738754696e-16,
+        0.0,
+        2.7943036556243896,
+        0.0,
+        8.008045196533203,
+        1.0
+      ],
+      "name": "corpse"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        -0.8789262081533699,
+        -0.05146775158462555,
+        -5.124787806766893e-11,
+        0.0,
+        0.058432177546378264,
+        -0.9978592548781441,
+        0.029369849867230905,
+        0.0,
+        -0.0017168849820735162,
+        0.029319624608477063,
+        0.9995686129119783,
+        0.0,
+        -2.028615713119507,
+        -35.72614288330078,
+        140.71311950683594,
+        1.0
+      ],
+      "name": "Object_7"
+    },
+    {
+      "mesh": 1,
+      "name": "corpse_telega_other_items_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbmmognp2cqde"]
+
+[ext_resource type="PackedScene" uid="uid://ct87igxcp3w18" path="res://Lapidas/scene.gltf" id="1_csde1"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_csde1")]

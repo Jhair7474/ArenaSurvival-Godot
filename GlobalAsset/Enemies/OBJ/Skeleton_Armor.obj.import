@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dhwqm6osmybru"
+path="res://.godot/imported/Skeleton_Armor.obj-e58f543890dd290db064a00756ce400c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Skeleton_Armor.obj-e58f543890dd290db064a00756ce400c.mesh"]
+
+source_file="res://GlobalAsset/Enemies/OBJ/Skeleton_Armor.obj"
+dest_files=["res://.godot/imported/Skeleton_Armor.obj-e58f543890dd290db064a00756ce400c.mesh", "res://.godot/imported/Skeleton_Armor.obj-e58f543890dd290db064a00756ce400c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

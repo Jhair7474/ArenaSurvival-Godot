@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Wooden Cart
+* source:	https://sketchfab.com/3d-models/old-wooden-cart-b57a201a3f264cdbb1162125d6f0486f
+* author:	manuelpintor_ (https://sketchfab.com/manuelpintorcalero)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Wooden Cart" (https://sketchfab.com/3d-models/old-wooden-cart-b57a201a3f264cdbb1162125d6f0486f) by manuelpintor_ (https://sketchfab.com/manuelpintorcalero) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

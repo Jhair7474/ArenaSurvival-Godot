@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cart corpse (The Darkest Red)
+* source:	https://sketchfab.com/3d-models/cart-corpse-the-darkest-red-ac2389d2b9224b9d9310a6dfc978a7cc
+* author:	KIFIR (https://sketchfab.com/kifir)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cart corpse (The Darkest Red)" (https://sketchfab.com/3d-models/cart-corpse-the-darkest-red-ac2389d2b9224b9d9310a6dfc978a7cc) by KIFIR (https://sketchfab.com/kifir) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
